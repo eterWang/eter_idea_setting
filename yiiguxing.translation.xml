@@ -1,0 +1,14 @@
+<application>
+  <component name="Translation.Cache">
+    <option name="lastTrimTime" value="1689319575204" />
+  </component>
+  <component name="Translation.Settings">
+    <option name="baiduTranslateSettings">
+      <app-key>
+        <option name="appId" value="20221107001439946" />
+      </app-key>
+    </option>
+    <option name="primaryLanguage" value="CHINESE" />
+    <option name="translator" value="BAIDU" />
+  </component>
+</application>
