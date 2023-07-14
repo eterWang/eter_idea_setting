@@ -11,4 +11,12 @@
     <option name="primaryLanguage" value="CHINESE" />
     <option name="translator" value="BAIDU" />
   </component>
+  <component name="Translation.States">
+    <option name="newTranslationDialogWidth" value="598" />
+    <option name="newTranslationDialogX" value="794" />
+    <option name="newTranslationDialogY" value="390" />
+    <histories>
+      <item value="美人鱼" />
+    </histories>
+  </component>
 </application>
