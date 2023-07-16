@@ -1,0 +1,30 @@
+<application>
+  <component name="com.github.evgenys91.machinet.common.feedback.FeedbackState">
+    <option name="feedbackDTOByID">
+      <map>
+        <entry key="LinkedHashMapTest.java_nextReturnsNextValue">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="LinkedHashMapTest.java" />
+              <option name="myMethodName" value="nextReturnsNextValue" />
+              <option name="myCode" value="@Test&#10;    @DisplayName(&quot;Should return the next value in the iterator&quot;)&#10;    void nextReturnsNextValue() {&#10;        LinkedHashIterator linkedHashIterator;&#10;        LinkedValueIterator linkedValueIterator;&#10;&#10;        @BeforeEach&#10;        void setUp () {&#10;            linkedHashIterator = mock(LinkedHashIterator.class);&#10;            linkedValueIterator = new LinkedValueIterator(linkedHashIterator);&#10;        }&#10;    }" />
+              <option name="myGeneratedDate" value="1689490353461" />
+              <option name="myRequestId" value="30439f" />
+            </FeedbackDTO>
+          </value>
+        </entry>
+        <entry key="LinkedHashMapTest.java_nextWhenNoNextValueThenThrowException">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="LinkedHashMapTest.java" />
+              <option name="myMethodName" value="nextWhenNoNextValueThenThrowException" />
+              <option name="myCode" value="@Test&#10;    @DisplayName(&quot;Should throw NoSuchElementException when there is no next value&quot;)&#10;    void nextWhenNoNextValueThenThrowException() {&#10;        LinkedValueIterator linkedValueIterator;&#10;&#10;        @BeforeEach&#10;        void setUp () {&#10;            linkedValueIterator = new LinkedValueIterator();&#10;        }&#10;    }" />
+              <option name="myGeneratedDate" value="1689490353461" />
+              <option name="myRequestId" value="30439f" />
+            </FeedbackDTO>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
