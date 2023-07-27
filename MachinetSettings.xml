@@ -24,6 +24,94 @@
             </FeedbackDTO>
           </value>
         </entry>
+        <entry key="OrderFrontendControllerTest.java_preOrderWithInvalidParameters">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="OrderFrontendControllerTest.java" />
+              <option name="myMethodName" value="preOrderWithInvalidParameters" />
+              <option name="myCode" value="@Test&#10;    @DisplayName(&quot;Should throw an exception when invalid parameters are provided&quot;)&#10;    void preOrderWithInvalidParameters() {&#10;        OrderCalRequest orderCalRequest = new OrderCalRequest();&#10;        orderCalRequest.setGoodsList(Collections.emptyList());&#10;&#10;        // Act and Assert&#10;        assertThrows(BadRequestException.class, () -&gt; {&#10;            orderFrontendController.preOrder(orderCalRequest, &quot;tenantCode&quot;, &quot;shopCode&quot;, null, null);&#10;        });&#10;    }" />
+              <option name="myGeneratedDate" value="1690425519381" />
+              <option name="myRequestId" value="bddbc9" />
+            </FeedbackDTO>
+          </value>
+        </entry>
+        <entry key="OrderFrontendControllerTest.java_preOrderWithInvalidShopCode">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="OrderFrontendControllerTest.java" />
+              <option name="myMethodName" value="preOrderWithInvalidShopCode" />
+              <option name="myCode" value="@Test&#10;    @DisplayName(&quot;Should throw an exception when invalid shop code is provided&quot;)&#10;    void preOrderWithInvalidShopCode() {&#10;        OrderCalRequest orderCalRequest = new OrderCalRequest();&#10;        String tenantCode = &quot;T001&quot;;&#10;        String shopCode = &quot;S001&quot;;&#10;        Long userId = 12345L;&#10;        Long activityId = 67890L;&#10;&#10;        when(orderService.preOrder(orderCalRequest, userId, tenantCode, shopCode, activityId))&#10;                .thenThrow(new InvalidShopCodeException(&quot;Invalid shop code&quot;));&#10;&#10;        assertThrows(InvalidShopCodeException.class, () -&gt; {&#10;            orderFrontendController.preOrder(orderCalRequest, tenantCode, shopCode, userId, activityId);&#10;        });&#10;&#10;        verify(orderService, times(1)).preOrder(orderCalRequest, userId, tenantCode, shopCode, activityId);&#10;    }" />
+              <option name="myGeneratedDate" value="1690426032275" />
+              <option name="myRequestId" value="437ec2" />
+            </FeedbackDTO>
+          </value>
+        </entry>
+        <entry key="OrderFrontendControllerTest.java_preOrderWithInvalidTenantCode">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="OrderFrontendControllerTest.java" />
+              <option name="myMethodName" value="preOrderWithInvalidTenantCode" />
+              <option name="myCode" value="@Test&#10;    @DisplayName(&quot;Should throw an exception when invalid tenant code is provided&quot;)&#10;    void preOrderWithInvalidTenantCode() {&#10;        OrderCalRequest orderCalRequest = new OrderCalRequest();&#10;        String tenantCode = &quot;invalidTenantCode&quot;;&#10;        String shopCode = &quot;shopCode&quot;;&#10;        Long userId = 1L;&#10;        Long activityId = 1L;&#10;&#10;        // Act and Assert&#10;        assertThrows(InvalidTenantCodeException.class, () -&gt; {&#10;            orderFrontendController.preOrder(orderCalRequest, tenantCode, shopCode, userId, activityId);&#10;        });&#10;&#10;        verify(orderService, never()).preOrder(any(OrderCalRequest.class), anyLong(), anyString(), anyString(), anyLong());&#10;    }" />
+              <option name="myGeneratedDate" value="1690426032275" />
+              <option name="myRequestId" value="437ec2" />
+            </FeedbackDTO>
+          </value>
+        </entry>
+        <entry key="OrderFrontendControllerTest.java_preOrderWithNullParameters">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="OrderFrontendControllerTest.java" />
+              <option name="myMethodName" value="preOrderWithNullParameters" />
+              <option name="myCode" value="@Test&#10;    @DisplayName(&quot;Should throw an exception when null parameters are provided&quot;)&#10;    void preOrderWithNullParameters() {&#10;        OrderCalRequest orderCalRequest = new OrderCalRequest();&#10;        assertThrows(BadRequestException.class, () -&gt; {&#10;            orderFrontendController.preOrder(orderCalRequest, null, null, null, null);&#10;        });&#10;    }" />
+              <option name="myGeneratedDate" value="1690425949456" />
+              <option name="myRequestId" value="f74bbd" />
+            </FeedbackDTO>
+          </value>
+        </entry>
+        <entry key="OrderFrontendControllerTest.java_preOrderWithValidParameters">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="OrderFrontendControllerTest.java" />
+              <option name="myMethodName" value="preOrderWithValidParameters" />
+              <option name="myCode" value="@Test&#10;    @DisplayName(&quot;Should return the calculated order when valid parameters are provided&quot;)&#10;    void preOrderWithValidParameters() {&#10;        OrderCalRequest orderCalRequest = new OrderCalRequest();&#10;        orderCalRequest.setGoodsList(Collections.singletonList(new OrderItemCalRequest()));&#10;        String tenantCode = &quot;testTenant&quot;;&#10;        String shopCode = &quot;testShop&quot;;&#10;&#10;        OrderCalculateResult expectedResult = new OrderCalculateResult();&#10;        when(orderService.preOrder(eq(orderCalRequest), anyLong(), eq(tenantCode), eq(shopCode), anyLong())).thenReturn(expectedResult);&#10;&#10;        ResultData&lt;OrderCalculateResult&gt; result = orderFrontendController.preOrder(orderCalRequest, tenantCode, shopCode, null, null);&#10;&#10;        assertNotNull(result);&#10;        assertEquals(expectedResult, result.getData());&#10;        verify(orderService, times(1)).preOrder(eq(orderCalRequest), anyLong(), eq(tenantCode), eq(shopCode), anyLong());&#10;    }" />
+              <option name="myGeneratedDate" value="1690425519381" />
+              <option name="myRequestId" value="bddbc9" />
+            </FeedbackDTO>
+          </value>
+        </entry>
+        <entry key="OrderFrontendControllerTest.java_preOrderWithValidRequest">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="OrderFrontendControllerTest.java" />
+              <option name="myMethodName" value="preOrderWithValidRequest" />
+              <option name="myCode" value="@Test&#10;    @DisplayName(&quot;Should return the calculated order when valid request is provided&quot;)&#10;    void preOrderWithValidRequest() {&#10;        OrderCalRequest orderCalRequest = new OrderCalRequest();&#10;        String tenantCode = &quot;TENANT&quot;;&#10;        String shopCode = &quot;SHOP&quot;;&#10;        Long userId = 123L;&#10;        Long activityId = 456L;&#10;        OrderCalculateResult expectedResult = new OrderCalculateResult();&#10;&#10;        when(orderService.preOrder(orderCalRequest, userId, tenantCode, shopCode, activityId)).thenReturn(expectedResult);&#10;&#10;        ResultData&lt;OrderCalculateResult&gt; result = orderFrontendController.preOrder(orderCalRequest, tenantCode, shopCode, userId, activityId);&#10;&#10;        assertNotNull(result);&#10;        assertEquals(expectedResult, result.getData());&#10;        verify(orderService, times(1)).preOrder(orderCalRequest, userId, tenantCode, shopCode, activityId);&#10;    }" />
+              <option name="myGeneratedDate" value="1690426032275" />
+              <option name="myRequestId" value="437ec2" />
+            </FeedbackDTO>
+          </value>
+        </entry>
+        <entry key="OrderFrontendControllerTest.java_preOrderWithoutActivityId">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="OrderFrontendControllerTest.java" />
+              <option name="myMethodName" value="preOrderWithoutActivityId" />
+              <option name="myCode" value="@Test&#10;    @DisplayName(&quot;Should handle the case when activity id is not provided&quot;)&#10;    void preOrderWithoutActivityId() {&#10;        OrderCalRequest orderCalRequest = new OrderCalRequest();&#10;        String tenantCode = &quot;TENANT&quot;;&#10;        String shopCode = &quot;SHOP&quot;;&#10;&#10;        OrderCalculateResult expectedResult = new OrderCalculateResult();&#10;        when(orderService.preOrder(orderCalRequest, null, tenantCode, shopCode, null)).thenReturn(expectedResult);&#10;&#10;        ResultData&lt;OrderCalculateResult&gt; result = orderFrontendController.preOrder(orderCalRequest, tenantCode, shopCode, null, null);&#10;&#10;        assertNotNull(result);&#10;        assertEquals(expectedResult, result.getData());&#10;        verify(orderService, times(1)).preOrder(orderCalRequest, null, tenantCode, shopCode, null);&#10;    }" />
+              <option name="myGeneratedDate" value="1690426032275" />
+              <option name="myRequestId" value="437ec2" />
+            </FeedbackDTO>
+          </value>
+        </entry>
+        <entry key="OrderFrontendControllerTest.java_preOrderWithoutUserId">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="OrderFrontendControllerTest.java" />
+              <option name="myMethodName" value="preOrderWithoutUserId" />
+              <option name="myCode" value="@Test&#10;    @DisplayName(&quot;Should handle the case when user id is not provided&quot;)&#10;    void preOrderWithoutUserId() {&#10;        OrderCalRequest orderCalRequest = new OrderCalRequest();&#10;        String tenantCode = &quot;TENANT&quot;;&#10;        String shopCode = &quot;SHOP&quot;;&#10;        Long userId = null;&#10;        Long activityId = null;&#10;&#10;        OrderCalculateResult expectedResult = new OrderCalculateResult();&#10;&#10;        when(orderService.preOrder(orderCalRequest, userId, tenantCode, shopCode, activityId)).thenReturn(expectedResult);&#10;&#10;        ResultData&lt;OrderCalculateResult&gt; result = orderFrontendController.preOrder(orderCalRequest, tenantCode, shopCode, userId, activityId);&#10;&#10;        assertNotNull(result);&#10;        assertEquals(expectedResult, result.getData());&#10;        verify(orderService, times(1)).preOrder(orderCalRequest, userId, tenantCode, shopCode, activityId);&#10;    }" />
+              <option name="myGeneratedDate" value="1690426032275" />
+              <option name="myRequestId" value="437ec2" />
+            </FeedbackDTO>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
