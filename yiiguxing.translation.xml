@@ -14,10 +14,12 @@
     <option name="translator" value="BAIDU" />
   </component>
   <component name="Translation.States">
-    <option name="newTranslationDialogWidth" value="598" />
+    <option name="newTranslationDialogWidth" value="596" />
     <option name="newTranslationDialogX" value="794" />
     <option name="newTranslationDialogY" value="390" />
     <histories>
+      <item value=" vulnerable" />
+      <item value="Provides transitive vulnerable" />
       <item value="Ascent" />
       <item value="graphics" />
       <item value="transparent" />
@@ -36,7 +38,7 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="12" />
+        <entry key="CHINESE" value="13" />
         <entry key="ENGLISH" value="13" />
       </map>
     </option>
