@@ -18,6 +18,7 @@
     <option name="newTranslationDialogX" value="794" />
     <option name="newTranslationDialogY" value="390" />
     <histories>
+      <item value="Biz Scenario" />
       <item value="struc" />
       <item value="gradually" />
       <item value="The core ablility should be implemented in Domain. or sink to Domian gradually" />
@@ -44,6 +45,7 @@
         <entry key="CHINESE" value="15" />
         <entry key="ENGLISH" value="15" />
         <entry key="FRENCH" value="1" />
+        <entry key="TURKISH" value="1" />
       </map>
     </option>
   </component>
