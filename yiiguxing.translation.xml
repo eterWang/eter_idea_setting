@@ -14,10 +14,12 @@
     <option name="translator" value="BAIDU" />
   </component>
   <component name="Translation.States">
-    <option name="newTranslationDialogWidth" value="596" />
-    <option name="newTranslationDialogX" value="794" />
-    <option name="newTranslationDialogY" value="390" />
+    <option name="newTranslationDialogHeight" value="260" />
+    <option name="newTranslationDialogWidth" value="594" />
+    <option name="newTranslationDialogX" value="928" />
+    <option name="newTranslationDialogY" value="366" />
     <histories>
+      <item value="策略" />
       <item value="transient" />
       <item value="Abstract Queued Synchronizer" />
       <item value="Biz Scenario" />
