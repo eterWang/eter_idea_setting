@@ -19,6 +19,9 @@
     <option name="newTranslationDialogX" value="928" />
     <option name="newTranslationDialogY" value="366" />
     <histories>
+      <item value="实物" />
+      <item value="width" />
+      <item value="with" />
       <item value="策略" />
       <item value="transient" />
       <item value="Abstract Queued Synchronizer" />
@@ -45,8 +48,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="16" />
-        <entry key="ENGLISH" value="17" />
+        <entry key="CHINESE" value="20" />
+        <entry key="ENGLISH" value="20" />
         <entry key="FRENCH" value="1" />
         <entry key="TURKISH" value="1" />
       </map>
