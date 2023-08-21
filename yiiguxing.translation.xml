@@ -19,6 +19,8 @@
     <option name="newTranslationDialogX" value="928" />
     <option name="newTranslationDialogY" value="366" />
     <histories>
+      <item value="Sync" />
+      <item value="Aync" />
       <item value="实物" />
       <item value="width" />
       <item value="with" />
@@ -49,8 +51,9 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="20" />
-        <entry key="ENGLISH" value="20" />
+        <entry key="ENGLISH" value="21" />
         <entry key="FRENCH" value="1" />
+        <entry key="INDONESIAN" value="1" />
         <entry key="TURKISH" value="1" />
       </map>
     </option>
