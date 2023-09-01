@@ -19,6 +19,7 @@
     <option name="newTranslationDialogX" value="928" />
     <option name="newTranslationDialogY" value="366" />
     <histories>
+      <item value="Literal" />
       <item value="差" />
       <item value="Goods" />
       <item value="good" />
@@ -62,7 +63,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="29" />
-        <entry key="ENGLISH" value="29" />
+        <entry key="ENGLISH" value="30" />
         <entry key="FRENCH" value="1" />
         <entry key="INDONESIAN" value="1" />
         <entry key="TURKISH" value="1" />
