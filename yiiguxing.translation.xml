@@ -19,6 +19,7 @@
     <option name="newTranslationDialogX" value="928" />
     <option name="newTranslationDialogY" value="366" />
     <histories>
+      <item value="加密" />
       <item value="匈牙利" />
       <item value="抢占" />
       <item value="占用" />
@@ -70,8 +71,8 @@
     <option name="languageScores">
       <map>
         <entry key="AZERBAIJANI" value="1" />
-        <entry key="CHINESE" value="36" />
-        <entry key="ENGLISH" value="36" />
+        <entry key="CHINESE" value="37" />
+        <entry key="ENGLISH" value="37" />
         <entry key="FRENCH" value="1" />
         <entry key="INDONESIAN" value="1" />
         <entry key="TURKISH" value="1" />
