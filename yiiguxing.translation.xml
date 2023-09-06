@@ -19,6 +19,8 @@
     <option name="newTranslationDialogX" value="928" />
     <option name="newTranslationDialogY" value="366" />
     <histories>
+      <item value="偶数" />
+      <item value="奇数" />
       <item value="sqrt" />
       <item value="abs" />
       <item value="Literal" />
@@ -65,8 +67,8 @@
     <option name="languageScores">
       <map>
         <entry key="AZERBAIJANI" value="1" />
-        <entry key="CHINESE" value="31" />
-        <entry key="ENGLISH" value="31" />
+        <entry key="CHINESE" value="33" />
+        <entry key="ENGLISH" value="33" />
         <entry key="FRENCH" value="1" />
         <entry key="INDONESIAN" value="1" />
         <entry key="TURKISH" value="1" />
