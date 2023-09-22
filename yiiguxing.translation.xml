@@ -19,6 +19,7 @@
     <option name="newTranslationDialogX" value="928" />
     <option name="newTranslationDialogY" value="366" />
     <histories>
+      <item value="后缀" />
       <item value="重叠区间" />
       <item value="Priority" />
       <item value="上车" />
@@ -68,13 +69,12 @@
       <item value="gradually" />
       <item value="The core ablility should be implemented in Domain. or sink to Domian gradually" />
       <item value=" vulnerable" />
-      <item value="Provides transitive vulnerable" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="AZERBAIJANI" value="1" />
-        <entry key="CHINESE" value="51" />
-        <entry key="ENGLISH" value="51" />
+        <entry key="CHINESE" value="52" />
+        <entry key="ENGLISH" value="52" />
         <entry key="FRENCH" value="1" />
         <entry key="INDONESIAN" value="1" />
         <entry key="TURKISH" value="1" />
