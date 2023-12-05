@@ -112,6 +112,17 @@
             </FeedbackDTO>
           </value>
         </entry>
+        <entry key="StateMachineEngineHolderTest.java_testGetStateMachineEngineWhenEngineIsSetThenReturnSameInstance">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="StateMachineEngineHolderTest.java" />
+              <option name="myMethodName" value="testGetStateMachineEngineWhenEngineIsSetThenReturnSameInstance" />
+              <option name="myCode" value="@Test&#10;    public void testGetStateMachineEngineWhenEngineIsSetThenReturnSameInstance() {&#10;        // Arrange&#10;        StateMachineEngine mockEngine = Mockito.mock(StateMachineEngine.class);&#10;        StateMachineEngineHolder holder = new StateMachineEngineHolder();&#10;&#10;        // Act&#10;        holder.setStateMachineEngine(mockEngine);&#10;        StateMachineEngine returnedEngine = StateMachineEngineHolder.getStateMachineEngine();&#10;&#10;        // Assert&#10;        Assertions.assertEquals(mockEngine, returnedEngine, &quot;The returned engine should be the same as the one set&quot;);&#10;    }" />
+              <option name="myGeneratedDate" value="1700789590200" />
+              <option name="myRequestId" value="7dd0a2" />
+            </FeedbackDTO>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
