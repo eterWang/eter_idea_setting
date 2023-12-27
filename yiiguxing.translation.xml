@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1700201018950" />
+    <option name="lastTrimTime" value="1703660767490" />
   </component>
   <component name="Translation.Settings">
     <option name="baiduTranslateSettings">
@@ -19,6 +19,9 @@
     <option name="newTranslationDialogX" value="928" />
     <option name="newTranslationDialogY" value="366" />
     <histories>
+      <item value="Contact" />
+      <item value="Concat" />
+      <item value="Concact" />
       <item value="foo" />
       <item value="Assignment" />
       <item value="Recovery" />
@@ -66,14 +69,11 @@
       <item value="radix" />
       <item value="16进制" />
       <item value="Sync" />
-      <item value="Aync" />
-      <item value="实物" />
-      <item value="width" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="AZERBAIJANI" value="1" />
-        <entry key="CHINESE" value="60" />
+        <entry key="CHINESE" value="63" />
         <entry key="ENGLISH" value="61" />
         <entry key="FRENCH" value="1" />
         <entry key="INDONESIAN" value="1" />
