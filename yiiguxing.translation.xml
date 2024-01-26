@@ -19,6 +19,7 @@
     <option name="newTranslationDialogX" value="928" />
     <option name="newTranslationDialogY" value="366" />
     <histories>
+      <item value="stride" />
       <item value="Contact" />
       <item value="Concat" />
       <item value="Concact" />
@@ -68,13 +69,12 @@
       <item value="compute" />
       <item value="radix" />
       <item value="16进制" />
-      <item value="Sync" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="AZERBAIJANI" value="1" />
         <entry key="CHINESE" value="63" />
-        <entry key="ENGLISH" value="61" />
+        <entry key="ENGLISH" value="62" />
         <entry key="FRENCH" value="1" />
         <entry key="INDONESIAN" value="1" />
         <entry key="TURKISH" value="1" />
