@@ -1,4 +1,20 @@
 <application>
+  <component name="AppStorage">
+    <histories>
+      <item value="Syn" />
+    </histories>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1721111176742" />
+  </component>
+  <component name="Settings">
+    <option name="baiduTranslateSettings">
+      <app-key>
+        <option name="appId" value="20221107001439946" />
+      </app-key>
+    </option>
+    <option name="translator" value="BAIDU" />
+  </component>
   <component name="Translation.Cache">
     <option name="lastTrimTime" value="1706240360623" />
   </component>
