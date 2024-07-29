@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Transit" />
       <item value="Archive" />
       <item value="subdivision" />
       <item value="addivity" />
@@ -8,7 +9,7 @@
     </histories>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1721641300734" />
+    <option name="lastTrimTime" value="1722223107963" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
