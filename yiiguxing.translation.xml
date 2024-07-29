@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Bill" />
+      <item value="运单" />
+      <item value="单量" />
       <item value="Transit" />
       <item value="Archive" />
       <item value="subdivision" />
