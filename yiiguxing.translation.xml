@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="分布" />
+      <item value="比例" />
+      <item value="state" />
+      <item value="stat" />
       <item value="Bill" />
       <item value="运单" />
       <item value="单量" />
