@@ -1,7 +1,7 @@
 <templateSet group="my">
   <template name="**" value="**&#10; $param$&#10; $return$&#10; * @decription $decription$ &#10; * @date $date$ $time$ &#10; */" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
-    <variable name="return" expression="groovyScript(&quot;def returnType = \&quot;${_1}\&quot;; def result = '* @return: ' + returnType; return result;&quot;, methodReturnType()); " defaultValue="" alwaysStopAt="true" />
+    <variable name="return" expression="groovyScript(&quot;def returnType = \&quot;${_1}\&quot;; def result = '* @return ' + returnType; return result;&quot;, methodReturnType()); " defaultValue="" alwaysStopAt="true" />
     <variable name="decription" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="param" expression="groovyScript(&quot;if(\&quot;${_1}\&quot;.length() == 2) {return '';} else {def result=''; def params=\&quot;${_1}\&quot;.replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList();for(i = 0; i &lt; params.size(); i++) {if(i==0){result+='* @param ' + params[i] + ' '}else{result+='\\n' + ' * @param ' + params[i] + ' '}}; return result;}&quot;, methodParameters()); " defaultValue="" alwaysStopAt="false" />
     <variable name="time" expression="" defaultValue="" alwaysStopAt="true" />
