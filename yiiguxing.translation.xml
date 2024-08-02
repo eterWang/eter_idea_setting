@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="whole" />
+      <item value="hole" />
       <item value="聚合" />
       <item value="be not found" />
       <item value="found" />
