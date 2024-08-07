@@ -1,5 +1,5 @@
 <templateSet group="my">
-  <template name="**" value="**&#10; $param$&#10; $return$&#10; * @decription $decription$ &#10; * @date $date$ $time$ &#10; */" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
+  <template name="**" value="**&#10; $param$&#10; $return$&#10; * @decription $decription$ &#10; * @date $date$ $time$ &#10; */" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
     <variable name="return" expression="groovyScript(&quot;def returnType = \&quot;${_1}\&quot;; def result = '* @return ' + returnType; return result;&quot;, methodReturnType()); " defaultValue="" alwaysStopAt="true" />
     <variable name="decription" expression="" defaultValue="" alwaysStopAt="true" />
