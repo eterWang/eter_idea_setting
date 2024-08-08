@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="排除" />
       <item value="critical" />
       <item value="query Channel Metric" />
       <item value="Metric" />
