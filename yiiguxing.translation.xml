@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="capacity" />
+      <item value="Sons" />
       <item value="Statue" />
       <item value="quartz" />
       <item value="Poll" />
@@ -46,7 +48,7 @@
     </histories>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1725335121658" />
+    <option name="lastTrimTime" value="1725845190884" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
