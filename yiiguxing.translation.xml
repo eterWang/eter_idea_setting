@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="熔断" />
       <item value="partial" />
       <item value="partition" />
       <item value="capacity" />
