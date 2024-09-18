@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="去重" />
+      <item value="聚合" />
       <item value="熔断" />
       <item value="partial" />
       <item value="partition" />
@@ -26,7 +28,6 @@
       <item value="Metric" />
       <item value="whole" />
       <item value="hole" />
-      <item value="聚合" />
       <item value="be not found" />
       <item value="found" />
       <item value="fount" />
