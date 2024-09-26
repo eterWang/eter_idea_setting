@@ -1,10 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="partial" />
       <item value="去重" />
       <item value="聚合" />
       <item value="熔断" />
-      <item value="partial" />
       <item value="partition" />
       <item value="capacity" />
       <item value="Sons" />
