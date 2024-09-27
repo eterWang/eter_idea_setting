@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Consider revisiting the entries above or defining a bean of type 'com.nepxion.discovery.common.nacos.operation.NacosOperation' in your configuration." />
+      <item value="revisiting" />
       <item value="partial" />
       <item value="去重" />
       <item value="聚合" />
@@ -52,7 +54,7 @@
     </histories>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1726629145076" />
+    <option name="lastTrimTime" value="1727401119668" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
