@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="接口调用" />
       <item value="enterprise" />
       <item value="企业" />
       <item value="Consider revisiting the entries above or defining a bean of type 'com.nepxion.discovery.common.nacos.operation.NacosOperation' in your configuration." />
@@ -50,7 +51,6 @@
       <item value="单量" />
       <item value="Transit" />
       <item value="Archive" />
-      <item value="subdivision" />
     </histories>
   </component>
   <component name="Cache">
