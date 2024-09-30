@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="enterprise" />
       <item value="企业" />
       <item value="Consider revisiting the entries above or defining a bean of type 'com.nepxion.discovery.common.nacos.operation.NacosOperation' in your configuration." />
       <item value="revisiting" />
@@ -50,7 +51,6 @@
       <item value="Transit" />
       <item value="Archive" />
       <item value="subdivision" />
-      <item value="addivity" />
     </histories>
   </component>
   <component name="Cache">
