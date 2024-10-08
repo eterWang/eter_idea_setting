@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="assign" />
+      <item value="assign Key" />
       <item value="valid" />
       <item value="接口调用" />
       <item value="enterprise" />
@@ -49,8 +51,6 @@
       <item value="stat" />
       <item value="Bill" />
       <item value="运单" />
-      <item value="单量" />
-      <item value="Transit" />
     </histories>
   </component>
   <component name="Cache">
