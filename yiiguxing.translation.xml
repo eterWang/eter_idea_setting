@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Unsatisfied" />
       <item value="assign" />
       <item value="assign Key" />
       <item value="valid" />
@@ -50,7 +51,6 @@
       <item value="state" />
       <item value="stat" />
       <item value="Bill" />
-      <item value="运单" />
     </histories>
   </component>
   <component name="Cache">
