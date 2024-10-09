@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="reactive" />
       <item value="实时" />
       <item value="Unsatisfied" />
       <item value="assign" />
@@ -50,7 +51,6 @@
       <item value="分布" />
       <item value="比例" />
       <item value="state" />
-      <item value="stat" />
     </histories>
   </component>
   <component name="Cache">
