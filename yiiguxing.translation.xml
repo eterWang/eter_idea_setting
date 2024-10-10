@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="omit Xml Declaration" />
       <item value="mutate" />
       <item value="格式" />
       <item value="Dump" />
@@ -50,7 +51,6 @@
       <item value="summary" />
       <item value="Summary" />
       <item value="时效" />
-      <item value="揽收" />
     </histories>
   </component>
   <component name="Cache">
