@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="mutate" />
       <item value="格式" />
       <item value="Dump" />
       <item value="reactive" />
@@ -50,7 +51,6 @@
       <item value="Summary" />
       <item value="时效" />
       <item value="揽收" />
-      <item value="分布" />
     </histories>
   </component>
   <component name="Cache">
