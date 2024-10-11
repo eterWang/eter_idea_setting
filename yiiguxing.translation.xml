@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="高级" />
+      <item value="权限系统" />
+      <item value="权限" />
       <item value="omit Xml Declaration" />
       <item value="mutate" />
       <item value="格式" />
@@ -48,9 +51,6 @@
       <item value="fount" />
       <item value="Adapter" />
       <item value="Assembler" />
-      <item value="summary" />
-      <item value="Summary" />
-      <item value="时效" />
     </histories>
   </component>
   <component name="Cache">
