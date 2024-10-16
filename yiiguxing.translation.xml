@@ -1,6 +1,12 @@
 <application>
   <component name="AppStorage">
+    <option name="newTranslationDialogWidth" value="598" />
+    <option name="newTranslationDialogX" value="1126" />
+    <option name="newTranslationDialogY" value="626" />
     <histories>
+      <item value="物流管理" />
+      <item value="全链路&#10;" />
+      <item value="全链路" />
       <item value="高级" />
       <item value="权限系统" />
       <item value="权限" />
@@ -48,13 +54,10 @@
       <item value="hole" />
       <item value="be not found" />
       <item value="found" />
-      <item value="fount" />
-      <item value="Adapter" />
-      <item value="Assembler" />
     </histories>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1728365839607" />
+    <option name="lastTrimTime" value="1729042069154" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
