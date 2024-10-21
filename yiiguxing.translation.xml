@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="1126" />
     <option name="newTranslationDialogY" value="626" />
     <histories>
+      <item value="exclude" />
       <item value="it's ok to call lock() here (blocking) because we're supposed to get here from either maybeRefreh() or maybeRefreshBlocking(), after the lock has already been obtained. Doing that protects us from an accidental bug where this method will be called outside the scope of refreshLock. Per ReentrantLock's javadoc, calling lock() by the same thread more than once is ok, as long as unlock() is called a matching number of times." />
       <item value="concrete" />
       <item value="periodically" />
@@ -46,7 +47,6 @@
       <item value="ORG" />
       <item value="Cluster" />
       <item value="get Enterprise" />
-      <item value="exclude" />
       <item value="prohibited" />
       <item value="The relative path of the parent &amp;lt;code&amp;gt;pom.xml&amp;lt;code&amp;gt; file within the check out. The default value is &amp;lt;code&amp;gt;..pom.xml&amp;lt;code&amp;gt;. Maven looks for the parent pom first in the reactor of currently building projects, then in this location on the filesystem, then the local repository, and lastly in the remote repo. &amp;lt;code&amp;gt;relativePath&amp;lt;code&amp;gt; allows you to select a different location, for example when your structure is flat, or deeper without an intermediate parent pom. However, the group ID, artifact ID and version are still required, and must match the file in the location given or it will revert to the repository for the POM. This feature is only for enhancing the development in a local checkout of that project." />
       <item value="constant" />
