@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="1126" />
     <option name="newTranslationDialogY" value="626" />
     <histories>
+      <item value="Exchange" />
       <item value="origin" />
       <item value="exclude" />
       <item value="it's ok to call lock() here (blocking) because we're supposed to get here from either maybeRefreh() or maybeRefreshBlocking(), after the lock has already been obtained. Doing that protects us from an accidental bug where this method will be called outside the scope of refreshLock. Per ReentrantLock's javadoc, calling lock() by the same thread more than once is ok, as long as unlock() is called a matching number of times." />
@@ -53,7 +54,6 @@
       <item value="constant" />
       <item value="排除" />
       <item value="critical" />
-      <item value="query Channel Metric" />
     </histories>
   </component>
   <component name="Cache">
