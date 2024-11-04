@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="1126" />
     <option name="newTranslationDialogY" value="626" />
     <histories>
+      <item value="Sentinel" />
       <item value="Degrade" />
       <item value="可降级的" />
       <item value="降级" />
@@ -53,11 +54,10 @@
       <item value="bundle" />
       <item value="LANGUAGE ORG" />
       <item value="ORG" />
-      <item value="Cluster" />
     </histories>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1730083833406" />
+    <option name="lastTrimTime" value="1730687860140" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
