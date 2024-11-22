@@ -4,6 +4,9 @@
     <option name="newTranslationDialogX" value="1126" />
     <option name="newTranslationDialogY" value="626" />
     <histories>
+      <item value="a couple of minutes" />
+      <item value="三级行政区划" />
+      <item value="二级行政区划" />
       <item value="Finance" />
       <item value="m.groupCount() &gt; 0" />
       <item value="Sentinel" />
@@ -51,13 +54,10 @@
       <item value="Statue" />
       <item value="quartz" />
       <item value="Poll" />
-      <item value="querytracklen" />
-      <item value="resource bundle" />
-      <item value="bundle" />
     </histories>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1731568660238" />
+    <option name="lastTrimTime" value="1732189314529" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
