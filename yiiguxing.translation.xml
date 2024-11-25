@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="1126" />
     <option name="newTranslationDialogY" value="626" />
     <histories>
+      <item value="======refresh baidu token by random proxy schedule start=======" />
       <item value="a couple of minutes" />
       <item value="三级行政区划" />
       <item value="二级行政区划" />
@@ -53,7 +54,6 @@
       <item value="Sons" />
       <item value="Statue" />
       <item value="quartz" />
-      <item value="Poll" />
     </histories>
   </component>
   <component name="Cache">
