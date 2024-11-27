@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="1126" />
     <option name="newTranslationDialogY" value="626" />
     <histories>
+      <item value="路线图" />
       <item value="======refresh baidu token by random proxy schedule start=======" />
       <item value="a couple of minutes" />
       <item value="三级行政区划" />
@@ -53,11 +54,10 @@
       <item value="capacity" />
       <item value="Sons" />
       <item value="Statue" />
-      <item value="quartz" />
     </histories>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1732189314529" />
+    <option name="lastTrimTime" value="1732697544551" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
