@@ -4,6 +4,12 @@
     <option name="newTranslationDialogX" value="1126" />
     <option name="newTranslationDialogY" value="626" />
     <histories>
+      <item value="Fragment" />
+      <item value="ceiling" />
+      <item value="介于" />
+      <item value="区间" />
+      <item value="繁忙" />
+      <item value="Busy" />
       <item value="路线图" />
       <item value="======refresh baidu token by random proxy schedule start=======" />
       <item value="a couple of minutes" />
@@ -48,12 +54,6 @@
       <item value="revisiting" />
       <item value="partial" />
       <item value="去重" />
-      <item value="聚合" />
-      <item value="熔断" />
-      <item value="partition" />
-      <item value="capacity" />
-      <item value="Sons" />
-      <item value="Statue" />
     </histories>
   </component>
   <component name="Cache">
