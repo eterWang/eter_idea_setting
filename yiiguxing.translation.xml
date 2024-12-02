@@ -1,9 +1,10 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogWidth" value="596" />
+    <option name="newTranslationDialogWidth" value="594" />
     <option name="newTranslationDialogX" value="1126" />
     <option name="newTranslationDialogY" value="626" />
     <histories>
+      <item value="渠道" />
       <item value="Fragment" />
       <item value="ceiling" />
       <item value="介于" />
@@ -53,11 +54,10 @@
       <item value="Consider revisiting the entries above or defining a bean of type 'com.nepxion.discovery.common.nacos.operation.NacosOperation' in your configuration." />
       <item value="revisiting" />
       <item value="partial" />
-      <item value="去重" />
     </histories>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1732697544551" />
+    <option name="lastTrimTime" value="1733132341568" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
