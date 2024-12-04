@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="1126" />
     <option name="newTranslationDialogY" value="626" />
     <histories>
+      <item value="obstructed" />
       <item value="Archive" />
       <item value="渠道" />
       <item value="Fragment" />
@@ -53,7 +54,6 @@
       <item value="enterprise" />
       <item value="企业" />
       <item value="Consider revisiting the entries above or defining a bean of type 'com.nepxion.discovery.common.nacos.operation.NacosOperation' in your configuration." />
-      <item value="revisiting" />
     </histories>
   </component>
   <component name="Cache">
