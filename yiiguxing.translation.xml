@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="1126" />
     <option name="newTranslationDialogY" value="626" />
     <histories>
+      <item value="exclude" />
       <item value="eligible" />
       <item value="obstructed" />
       <item value="Archive" />
@@ -27,7 +28,6 @@
       <item value="降级" />
       <item value="portal" />
       <item value="leased" />
-      <item value="exclude" />
       <item value="canonical" />
       <item value="Exchange" />
       <item value="origin" />
