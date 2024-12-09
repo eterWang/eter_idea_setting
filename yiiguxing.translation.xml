@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="1126" />
     <option name="newTranslationDialogY" value="626" />
     <histories>
+      <item value="eligible" />
       <item value="obstructed" />
       <item value="Archive" />
       <item value="渠道" />
@@ -53,11 +54,10 @@
       <item value="接口调用" />
       <item value="enterprise" />
       <item value="企业" />
-      <item value="Consider revisiting the entries above or defining a bean of type 'com.nepxion.discovery.common.nacos.operation.NacosOperation' in your configuration." />
     </histories>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1733132341568" />
+    <option name="lastTrimTime" value="1733707455697" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
