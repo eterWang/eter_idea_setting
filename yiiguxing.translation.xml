@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="1126" />
     <option name="newTranslationDialogY" value="626" />
     <histories>
+      <item value="middleware" />
       <item value="流量治理" />
       <item value="流量" />
       <item value="exclude" />
@@ -53,7 +54,6 @@
       <item value="assign" />
       <item value="assign Key" />
       <item value="valid" />
-      <item value="接口调用" />
     </histories>
   </component>
   <component name="Cache">
